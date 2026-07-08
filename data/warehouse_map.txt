@@ -1,0 +1,8 @@
+Receiving:Aisle_1,Aisle_2
+Aisle_1:Receiving,Electronics,Aisle_3
+Aisle_2:Receiving,Clothing
+Electronics:Aisle_1,Shipping
+Clothing:Aisle_2,Shipping
+Aisle_3:Aisle_1,Heavy_Goods
+Heavy_Goods:Aisle_3,Shipping
+Shipping:Electronics,Clothing,Heavy_Goods
